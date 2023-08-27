@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
+import UtilityBar from "./UtilityBar";
 
 function App() {
   return (
     <div className="App">
-      <h1>Apple Delivery Website</h1>
+      <UtilityBar />
+      {/* The rest of your app */}
     </div>
   );
 }

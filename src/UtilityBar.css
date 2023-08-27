@@ -1,0 +1,21 @@
+.utilityBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .utilityBar button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .utilityBar button:hover {
+    background-color: #0056b3;
+  }
+  
