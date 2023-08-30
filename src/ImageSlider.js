@@ -1,17 +1,29 @@
-import React from "react";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "./ImageSlider.css"; // You can create your own styles
+import React, { useState } from "react";
+import "./ImageSlider.css"; // Create this file for styling
 
 const ImageSlider = ({ images }) => {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const nextImage = () => {
+    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
   return (
-    <Carousel>
-      {images.map((imageUrl, index) => (
-        <div key={index}>
-          <img src={imageUrl} alt={`Slide ${index}`} />
-        </div>
-      ))}
-    </Carousel>
+    <div className="image-slider">
+      <img src={images[currentImageIndex]} alt={`Slide ${currentImageIndex}`} />
+      <button className="prev-button" onClick={prevImage}>
+        Previous
+      </button>
+      <button className="next-button" onClick={nextImage}>
+        Next
+      </button>
+    </div>
   );
 };
 
