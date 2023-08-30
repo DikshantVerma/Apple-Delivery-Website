@@ -12,6 +12,7 @@ function App() {
       <SliderComponent />
       <UtilityBar />
       <ImageSlider images={images} />
+      <Footer />
       {/* The rest of your app */}
     </div>
   );
