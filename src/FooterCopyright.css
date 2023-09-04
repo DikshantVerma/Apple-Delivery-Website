@@ -1,0 +1,10 @@
+.footer__copyright {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    width: 98%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-left: 45%;
+}
