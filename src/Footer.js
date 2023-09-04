@@ -13,7 +13,9 @@ const Footer = () => {
       <div className="footer_socials">
         <p>test3</p>
       </div>
-      <p>&copy; 2023 Apple Site. All rights reserved.</p>
+      <div className="footer__copyright">
+        <p>&copy; 2023 Apple Site. All rights reserved.</p>
+      </div>
     </div>
   );
 };
