@@ -19,6 +19,9 @@ function App() {
           <Route path="/ourfarms" element={<OurFarmsPage />} />
 
           <Route path="/shop" element={<ShopPage />} />
+
+          <Route path="/" element={<HomePage />} />
+
           {/* <Header />
           <Home />
 
@@ -53,6 +56,15 @@ function ShopPage() {
     <>
       <Header />
       <Shop />
+    </>
+  );
+}
+
+function HomePage() {
+  return (
+    <>
+      <Header />
+      <Home />
     </>
   );
 }
