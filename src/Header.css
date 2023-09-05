@@ -1,5 +1,6 @@
 .header {
-    background-color: #C9E1C1;
+    /* background-color: #ECECEC; */
+    background-color: #EDEAE5;
 }
 
 .header__logo {
@@ -8,4 +9,27 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 18px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__optionlineOne{
+    font-size: 20px;
+}
+
+.header__link {
+    /* color: #026670; */
+    color: #1E4258;
+    /* color: #31708E; */
+    text-decoration: none;
 }
