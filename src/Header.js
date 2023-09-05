@@ -3,6 +3,9 @@ import "./Header.css";
 import logo from "./assests/pngegg.png";
 import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
+import PersonIcon from "@mui/icons-material/Person";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import FavoriteIcon from "@mui/icons-material/Favorite";
 
 function Header() {
   return (
@@ -16,32 +19,37 @@ function Header() {
         <input type="text" className="header__searchInput" />
       </div>
 
-      <div className="header__Nav">
+      <div className="header__nav">
         {/* 1st Link */}
         <Link to="/" className="header__link">
-          <div className="header__Option">
+          <div className="header__option">
             <span className="header__optionlineOne">Home</span>
           </div>
         </Link>
         {/* 2nd Link */}
         <Link to="/shop" className="header__link">
-          <div className="header__Option">
+          <div className="header__option">
             <span className="header__optionlineOne">Shop</span>
           </div>
         </Link>
         {/* 3rd Link */}
         <Link to="/ourfarms" className="header__link">
-          <div className="header__Option">
+          <div className="header__option">
             <span className="header__optionlineOne">Our Farms</span>
           </div>
         </Link>
 
         {/* 4th Link */}
         <Link to="/about" className="header__link">
-          <div className="header__Option">
+          <div className="header__option">
             <span className="header__optionlineOne">About</span>
           </div>
         </Link>
+      </div>
+      <div className="header__icons">
+        <PersonIcon className="header__person" />
+        <ShoppingCartIcon className="header__cart" />
+        {/* <FavoriteIcon className="header__favorite" /> */}
       </div>
     </nav>
   );
