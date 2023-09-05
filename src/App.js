@@ -6,6 +6,7 @@ import Header from "./Header";
 import Home from "./Home";
 import About from "./About";
 import OurFarms from "./OurFarms";
+import Shop from "./Shop";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -51,7 +52,7 @@ function ShopPage() {
   return (
     <>
       <Header />
-      <Home />
+      <Shop />
     </>
   );
 }
