@@ -5,6 +5,7 @@ import FooterCopyright from "./FooterCopyright";
 import Header from "./Header";
 import Home from "./Home";
 import About from "./About";
+import OurFarms from "./OurFarms";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
