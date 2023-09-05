@@ -11,12 +11,12 @@
     margin-top: 18px;
 }
 
-.header__nav {
+.header__Nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.header__option {
+.header__Option {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
