@@ -47,8 +47,14 @@ function Header() {
         </Link>
       </div>
       <div className="header__icons">
-        <PersonIcon className="header__person" />
-        <ShoppingCartIcon className="header__cart" />
+        <div className="header__iconsType">
+          <PersonIcon className="header__person" />
+        </div>
+
+        <div className="header__iconsType">
+          <ShoppingCartIcon className="header__cart" />
+        </div>
+
         {/* <FavoriteIcon className="header__favorite" /> */}
       </div>
     </nav>
