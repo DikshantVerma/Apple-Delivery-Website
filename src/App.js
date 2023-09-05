@@ -1,22 +1,25 @@
 import React from "react";
 import "./App.css";
-import UtilityBar from "./UtilityBar";
 import Footer from "./Footer";
 import FooterCopyright from "./FooterCopyright";
 import Header from "./Header";
 import Home from "./Home";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
-  const images = ["https://unsplash.com/photos/ukzHlkoz1IE"];
   return (
-    <div className="app">
-      <Header />
-      <Home />
-      {/* <UtilityBar /> */}
-      <Footer />
-      <FooterCopyright />
-      {/* The rest of your app */}
-    </div>
+    <Router>
+      <div className="app">
+        <Routes>
+          <Route></Route>
+          {/* <Header />
+          <Home />
+
+          <Footer />
+          <FooterCopyright /> */}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
