@@ -11,17 +11,11 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
-          <Route path="/about" element={AbouPage}>
-            <h1>About us and what we do!</h1>
-          </Route>
+          <Route path="/about" element={<AboutPage />} />
 
-          <Route path="/ourfarms">
-            <h1>All about our farms</h1>
-          </Route>
+          <Route path="/ourfarms" element={<OurFarmsPage />} />
 
-          <Route path="/shop">
-            <h1>Shop our Store</h1>
-          </Route>
+          <Route path="/shop" element={<ShopPage />} />
           {/* <Header />
           <Home />
 
@@ -30,6 +24,33 @@ function App() {
         </Routes>
       </div>
     </Router>
+  );
+}
+
+function AboutPage() {
+  return (
+    <>
+      <Header />
+      <Home />
+    </>
+  );
+}
+
+function OurFarmsPage() {
+  return (
+    <>
+      <Header />
+      <Home />
+    </>
+  );
+}
+
+function ShopPage() {
+  return (
+    <>
+      <Header />
+      <Home />
+    </>
   );
 }
 
