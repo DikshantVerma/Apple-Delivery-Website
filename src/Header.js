@@ -11,8 +11,10 @@ function Header() {
         <img className="header__logo" src={logo} alt="logo" />
       </Link>
 
-      <SearchIcon className="header__searchIcon" />
-      <input type="text" className="header__searchInput" />
+      <div className="header__search">
+        <SearchIcon className="header__searchIcon" />
+        <input type="text" className="header__searchInput" />
+      </div>
 
       <div className="header__Nav">
         {/* 1st Link */}
