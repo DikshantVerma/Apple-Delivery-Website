@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import FooterCopyright from "./FooterCopyright";
 import Header from "./Header";
 import Home from "./Home";
+import About from "./About";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -31,7 +32,7 @@ function AboutPage() {
   return (
     <>
       <Header />
-      <Home />
+      <About />
     </>
   );
 }
@@ -40,7 +41,7 @@ function OurFarmsPage() {
   return (
     <>
       <Header />
-      <Home />
+      <OurFarms />
     </>
   );
 }
