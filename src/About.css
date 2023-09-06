@@ -39,3 +39,17 @@
     justify-content: space-evenly;
 
 }
+
+.row__1 {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.row__1 > img {
+    max-height: 800px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}

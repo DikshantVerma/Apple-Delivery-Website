@@ -58,8 +58,6 @@ function About() {
       </div>
       <div className="row__1">
         <img src={himachalApples} alt="" />
-      </div>
-      <div className="row__2">
         <img src={appleImage} alt="" />
       </div>
     </div>
