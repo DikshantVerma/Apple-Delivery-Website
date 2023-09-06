@@ -1,4 +1,24 @@
+.about > h2 {
+    font-size: 42px;
+    color: #31708E;
+    text-align: left;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .about__description {
     display: flex;
-    flex: 1;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.about__description > p {
+    font-size: 14px;
+}
+
+.about__description > img {
+    width: 1200px;
+    height: 1200px;
 }

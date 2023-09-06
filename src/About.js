@@ -1,12 +1,13 @@
 import React from "react";
 import "./About.css";
 import logo from "./assests/IMG-20230906-144758-234.jpg";
+import appleImage from "./assests/IMG20230728102519-02.jpg";
 
 function About() {
   return (
     <div className="about">
       <img src={logo} alt="" />
-      <h1>Our Story</h1>
+      <h2>🍏 Harvesting Dreams: Shimla's Apple Alchemists 🏔️</h2>
       <div className="about__description">
         <p>
           In the picturesque town of Shimla, nestled amidst the breathtaking
@@ -24,9 +25,7 @@ function About() {
           Shimla's pristine farms to doorsteps nationwide, redefining the
           apple-buying experience for all.
         </p>
-      </div>
-      <div className="about__image">
-        <h1>test</h1>
+        <img src={appleImage} alt />
       </div>
     </div>
   );
