@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.header.about {
+    background-color: red;
+}
+
 .header__search {
     display: flex;
 }

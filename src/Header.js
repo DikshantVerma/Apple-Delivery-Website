@@ -42,7 +42,7 @@ function Header() {
         {/* 4th Link */}
         <Link to="/about" className="header__link">
           <div className="header__option">
-            <span className="header__optionlineOne">About</span>
+            <span className="header__optionlineOne">About Us</span>
           </div>
         </Link>
       </div>
